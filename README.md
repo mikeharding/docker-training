@@ -18,6 +18,8 @@
 ### Run the container
 `docker run --rm -it -p 8888:8888 mhardingmtl/centos7 bash`
 
-### Source .bash_profile
-`cd /home/snowman`
-`source .bash_profile`
+### Start Jupyter Lab
+`jupyter lab --ip=0.0.0.0 --port=8888`
+
+### Copy the 127.0.0.1 URL to your browser
+
